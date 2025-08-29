@@ -1,0 +1,19 @@
+# Ignore Hugo build output
+/public/
+/resources/
+
+# Ignore node_modules if using npm/yarn
+/node_modules/
+
+# Ignore OS files
+.DS_Store
+
+# Ignore editor files
+*.swp
+*.swo
+*.bak
+
+# Ignore log files
+*.log
+
+# Ignore the man
