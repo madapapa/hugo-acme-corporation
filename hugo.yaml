@@ -1,3 +1,49 @@
 baseURL: https://example.org/
 languageCode: en-us
-title: My New Hugo Site
+title: Acme Corporation
+theme: Eclectic
+
+author:
+  name: Acme Corporation
+  homepage: https://example.org/
+  email: "contact@example.org"
+  twitter: acme_corp
+  github: acme-corporation
+  linkedin: acme-corporation
+  location: "New York, NY"
+  phone: "+1-800-555-1234"
+  address: "123 Acme St, New York, NY 10001"
+  hours: "Mon-Fri 9am-5pm"
+
+menu:
+  main:
+    - identifier: about
+      name: About
+      url: /about/
+      weight: 100
+    - identifier: services
+      name: Services
+      url: /services/
+      weight: 200
+    - identifier: contact
+      name: Contact
+      url: /contact/
+      weight: 300
+params: 
+  colorScheme: blue
+  copyright: "Copyright & copy; 2024 Acme Corporation. All rights reserved."
+  description: "Innovative solutions for modern problems."  
+  footer:
+    - title: About
+      content: >
+        "Acme Corporation is the world's leading 
+        manufacturer of digital shapes. From squares and 
+        circles to triangles and hexagons, we have it 
+        all. Browse through our collection of various 
+        forms with different thicknesses and line styles. 
+        We shape the world. You live in it."
+    - title: Recent Blog Posts 
+      recents: blog 
+      recentCount: 7 
+    - title: Contact Us 
+      contact: true 

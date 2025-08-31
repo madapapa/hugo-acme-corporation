@@ -1,4 +1,5 @@
 # Ignore Hugo build output
+# ？？？ “ We should put this folder into our version control and reuse its data across builds. This folder is one of the critical ingredients for getting outstanding performance with Hugo”
 /public/
 /resources/
 
