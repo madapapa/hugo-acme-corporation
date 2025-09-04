@@ -1,16 +1,13 @@
-baseURL: https://example.org/
+baseURL: https://madapapa.com/
 languageCode: en-us
 title: Acme Corporation
 theme: Eclectic
 
 author:
   name: Acme Corporation
-  homepage: https://example.org/
-  email: "contact@example.org"
-  twitter: acme_corp
-  github: acme-corporation
-  linkedin: acme-corporation
-  location: "New York, NY"
+  facebook: " https://madapapa.com/"
+  email: " contact@example.org"
+  twitter: " acme_corp"
   phone: "+1-800-555-1234"
   address: "123 Acme St, New York, NY 10001"
   hours: "Mon-Fri 9am-5pm"
@@ -43,7 +40,15 @@ params:
         forms with different thicknesses and line styles. 
         We shape the world. You live in it."
     - title: Recent Blog Posts 
+      # content: >
+      #   "Stay updated with our latest news and articles. 
+      #   Check out our recent blog posts to learn more 
+      #   about our products, services, and industry insights."
       recents: blog 
       recentCount: 7 
     - title: Contact Us 
+      # content: >
+      #   "Have questions or need assistance? Reach out to 
+      #   us through our contact page. We're here to help 
+      #   you with any inquiries or support you may need."
       contact: true 
